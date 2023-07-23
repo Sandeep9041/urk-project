@@ -1,0 +1,310 @@
+.statics{
+    margin-left:25px;
+    width:70vw;
+    margin-block:25px;
+    display: flex;
+    flex-grow:1;
+}
+@media screen and (max-width:1200px) {
+    .statics {
+        flex-direction: column;
+    }
+}
+.first-part {
+    width:70%;
+}
+.retirement-sm-details-card{
+    display: flex;
+    width:50%;
+}
+.donut-card-sm{
+    display: none;
+}
+.contribution-span{
+    margin-left:15px;
+}
+.contribution-break{
+    margin-top:-15px;
+}
+@media screen and (max-width:768px) {
+    .first-part{
+      width:100%;
+    }
+}
+.sec-part {
+    width:30%;
+    margin-top:40px;
+    margin-left: 25px;
+}
+
+.retirement {
+    font-family: 'PT Serif', serif;    
+    color:blue;
+    margin-bottom:3px;
+    font-size:11px;
+}
+.statics-goals-card {
+    display: flex;
+    margin-top:25px;
+    width:100%;
+}
+.statics-goal{
+    margin-right:21px;
+    /* padding: 15px; */
+    width:21%;
+}
+.statics-break {
+    border : 0px ;
+    border-bottom: 1px solid blue;
+    height:-10px;
+}
+.statics-chart-heading {
+    color : #000; 
+    font-family: 'PT Serif', serif;    
+    font-size:13px;
+    opacity:0.8;
+}
+.bar-chart-card {
+    width:80%;
+    /* margin-top:15px; */
+    display: flex;
+    /* background-color: green; */
+}
+.bar-chart-details {
+    display:flex;
+    align-items:center;
+    /* justify-content: space-between; */
+    width:35%;
+    /* background-color: red; */
+    margin-right:15px;
+}
+.amount {
+    font-family: sans-serif;
+    color:#000;
+    font-size:11px;
+    opacity:0.8;
+    margin-right:5px;
+}
+.chart-text {
+    color:#919492;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 11px;
+    /* margin-bottom:0px; */
+    margin-right:5px;
+}
+.circle {
+    background-color:#000080;
+    width:13px;
+    height:7px;
+    border-radius:11px;
+    margin-right:5px;
+}
+.circle2 {
+    background-color:blue;
+    width:13px;
+    height:7px;
+    border-radius:11px;
+    margin-right:5px;
+}
+.circle3 {
+    background-color:#6495ED;
+    width:13px;
+    height:7px;
+    border-radius:11px;
+    margin-right:5px;
+}
+.pie-chart-card {
+    margin-top:25px;
+    width:65%;
+}
+.pie-chart-container {
+    display:flex;
+    margin-top:17px;
+}
+.pie-details {
+width:35%;
+margin-top:17px;
+}
+.color {
+    color: #000;
+    margin-bottom: 15px;
+}
+span {
+    opacity: 0.5;
+}
+label {
+    margin-left : 5px;
+    margin-top:113px;
+}
+.retirement-text {
+    color : #000; 
+    /* font-family: 'PT Serif', serif;     */
+    font-size:14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity:0.8;
+    font-weight:600;
+    margin-right:7px;
+}
+.view-docs-text {
+    color:blue;
+    font-size:14px;
+    font-family: sans-serif;
+    margin-top:25px;
+    text-align: center;
+    font-weight:600;
+}
+.advertisment-card {
+    display:flex;
+    justify-content: flex-start;
+    /* background-color:red; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:55px;
+}
+
+.advertisment-break {
+    margin-right: 15px;
+    border : 0px ;
+    border-right: 2px solid blue;
+    color:blue;
+    margin-left:0px;
+}
+.responsive {
+    width:25%;
+}
+.advertisment-heading {
+    font-family: sans-serif;
+    font-weight:700;
+    margin-top:0px;
+    opacity:0.7;
+    /* font-size:23px; */
+    font-family: sans-serif;
+}
+.advertisment-heading2 {
+    font-family: sans-serif;
+    font-weight:400;
+    opacity:0.7;
+    font-size:15px;
+    margin-bottom:5px;
+    font-family: sans-serif;
+}
+.breaks {
+    border:0px;
+    border-bottom:1px solid #cdd4d0;
+    width:100%;
+    text-align: left;
+}
+.contribution-break {
+    display: flex;
+    width: 55%;
+    align-items: flex-start;
+}
+@media screen and (max-width:768px) {
+    .statics-goals-card {
+        flex-direction: column;
+        /* background-color: red; */
+    }
+}
+@media screen and (max-width:768px) {
+    .retirement-sm-details-card {
+        display:flex;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .statics-break {
+        width: 100% !important;
+        margin-block:15px;
+    }
+    .statics-goal {
+        /* background-color: red; */
+        width: 100%;
+    }
+    #sm-balance-retirement{
+          font-size: 31px !important;
+          margin-top:-10px;
+    }
+    .bar-chart-details {
+        flex-direction:column;
+        align-items:flex-start;
+    }
+    .circle{
+        margin-bottom: 0px;
+    }
+    .circle2 {
+        margin-bottom: 0px;
+    }
+    .circle3 {
+        margin-bottom: 0px;
+    }
+    .chart-text {
+        margin-bottom:0px;
+    }
+    .amount{
+        margin-top:5px;
+        opacity:0.8;
+        font-weight:600;
+        font-size:13px;
+    }
+    .contribution-sm {
+        font-size:11px;
+        margin-top:-7px;
+    }
+    .pie-chart-card {
+        width: 100%;
+    }
+    .contribution-break {
+        width:100%;
+        margin-top: 15px;
+    }
+    .contribution-span{
+        margin-left : 15px;
+    }
+    .sec-part {
+        width: 100%;
+        margin-left:0px;
+        margin-top:15px;
+    }
+    .advertisment-card {
+        flex-direction:column;
+    }
+    .donut-card-sm {
+        display:flex;
+        width:100%;
+        justify-content:space-between;
+    }
+    .responsive {
+        display:none;
+    }
+    .pie-chart-container {
+       flex-direction:column;
+    }
+}
+@media screen and ((min-width: 768px) and (max-width:1200px) ) {
+    .sec-part{
+        width:100%;
+    }
+    .sec-first {
+        display:flex;
+        width:50%;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .sec-last {
+        display:flex;
+        width:50%;
+        justify-content: space-around;
+    }
+    .pie-chart-container{
+        width:60vw;
+        /* background-color: red; */
+    }
+    .statics-goals-card {
+        justify-content:space-between;
+    }
+    .retirement-sm-details-card {
+        justify-content:space-between;
+        width:70%;
+    }
+    .statics-goal{
+        width:50%;
+    }
+}

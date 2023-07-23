@@ -1,0 +1,11 @@
+.barchart-sm{
+    display:none
+}
+@media screen and (max-width: 768px) {
+    .barchart-lg {
+      display:none;
+    }
+    .barchart-sm {
+        display: block;
+     }
+}

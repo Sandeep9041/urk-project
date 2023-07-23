@@ -1,0 +1,125 @@
+.profile{
+    margin-left:15px;
+    padding-block:25px;
+    width:15vw;
+}
+@media screen and ((min-width: 768px) and (max-width:1200px) ) {
+    .profile {
+      width:80%;
+      display:flex;
+    }
+}
+@media screen and (max-width: 768px) {
+    .profile-sm-card {
+      width:70%;
+    }
+}
+@media screen and ((min-width: 768px) and (max-width:1200px) ) {
+    .profile-sm-card {
+      width:100%;
+      display:flex;
+      justify-content: space-around;
+      /* background-color: red; */
+      align-self:flex-start;
+    }
+}
+@media screen and (max-width: 768px) {
+    .profile {
+      width:100%;
+      margin-left: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+}
+.profile-details {
+    display:flex;
+    align-items:center;
+}
+@media screen and (max-width: 768px) {
+    .date-interest-card {
+      display: flex;
+    }
+}
+@media screen and (max-width: 768px) {
+    #sm{
+      margin-bottom:5px;
+      font-size:15px;
+      margin-right: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #sm-balance{
+      font-size:37px;
+      margin-top:-10px;
+    }
+}
+.profile-img {
+    width:85px;
+    height:85px;
+}
+@media screen and (max-width: 768px) {
+    .profile-img {
+      width:105px;
+      height:105px;
+    }
+}
+.name-card {
+    margin-bottom:15px;
+}
+
+.profile-name {
+    color:#282727;
+    font-size:21px;
+    margin-bottom:5px;
+    font-family: 'PT Serif', serif;    
+}
+.profile-welcome {
+    margin-top:4px;
+    font-size:11px;
+    color:#7d7f7e;
+    font-weight:500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.profile-balance-card {
+    margin-block:21px;
+}
+
+.balance-text {
+    color:#919492;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 11px;
+    margin-top:5px;
+    margin-bottom:0px;
+}
+@media screen and (max-width: 768px) {
+    .balance-text{
+     font-size:15px;
+    }
+  }
+.balance {
+    color:#282727;
+    font-size:13px;
+    margin-bottom: 0px;
+}
+.profile-btn {
+    background-color:blue;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border:0px solid transparent;
+    width:95px;
+    height: 35px;
+    border-radius:5px;
+}
+@media screen and (max-width: 768px) {
+    .profile-btn{
+        margin-top: 15px;
+        width:100%;
+        height:39px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .profile-balance{
+      /* background-color: red; */
+    /* padding-inline:25px; */
+    }
+}
